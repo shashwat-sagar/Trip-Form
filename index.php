@@ -70,10 +70,10 @@ if(isset($_POST['name'])){
         <input type="text" name="gender" id="gender" placeholder="Enter your gender">
         <input type="text" name="phone" id="phone" placeholder="Enter your phone">
         <input type="email" name="email" id="email" placeholder="Enter your email">
-        <!-- <input type="phone" name="phone" id="phone" placeholder="Enter yourphone"> -->
+        <input type="phone" name="phone" id="phone" placeholder="Enter yourphone">
         <textarea name="desc" id="" cols="30" rows="10" placeholder="Description"></textarea>
         <button class="btn">Submit</button>
-        <!-- <button class="btn">Reset</button> -->
+        <button class="btn">Reset</button>
     </form>
     <script src="index.js"></script>
 
